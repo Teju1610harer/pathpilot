@@ -1,5 +1,5 @@
 import os
-from flask import Flask, jsonify
+from flask import Flask, jsonify, render_template
 from pymongo import MongoClient
 from dotenv import load_dotenv
 
@@ -13,7 +13,7 @@ db = client[os.getenv("DB_NAME")]
 
 @app.route("/")
 def home():
-    return "PathPilot is running"
+    return render_template("index.html")
 
 @app.route("/health")
 def health():
