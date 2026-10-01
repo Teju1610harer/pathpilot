@@ -1,8 +1,10 @@
 import os
+from features import compute_features
 from flask import Flask, jsonify, render_template, request, redirect, url_for, flash, session
 from pymongo import MongoClient
 from werkzeug.security import generate_password_hash, check_password_hash
 from dotenv import load_dotenv
+
 
 load_dotenv()
 
@@ -96,6 +98,24 @@ def assessment():
 
     questions = list(db.questions.find({}, {"_id": 0}))
     return render_template("assessment.html", questions=questions)
+
+
+@app.route("/features-test")
+def features_test():
+    if "user_id" not in session:
+        flash("Please log in first.")
+        return redirect(url_for("login"))
+
+    latest = db.assessments.find_one(
+        {"user_id": session["user_id"]},
+        sort=[("_id", -1)]
+    )
+    if not latest:
+        return "No assessment found. Take the assessment first."
+
+    questions = list(db.questions.find({}, {"_id": 0}))
+    result = compute_features(latest["answers"], questions)
+    return jsonify(result)
 
 if __name__ == "__main__":
     app.run(debug=True)
