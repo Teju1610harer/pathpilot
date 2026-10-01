@@ -4,7 +4,7 @@ from flask import Flask, jsonify, render_template, request, redirect, url_for, f
 from pymongo import MongoClient
 from werkzeug.security import generate_password_hash, check_password_hash
 from dotenv import load_dotenv
-
+from ml.predict import predict_careers
 
 load_dotenv()
 
@@ -116,7 +116,27 @@ def features_test():
     questions = list(db.questions.find({}, {"_id": 0}))
     result = compute_features(latest["answers"], questions)
     return jsonify(result)
+@app.route("/results")
+def results():
+    if "user_id" not in session:
+        flash("Please log in first.")
+        return redirect(url_for("login"))
 
+    latest = db.assessments.find_one(
+        {"user_id": session["user_id"]},
+        sort=[("_id", -1)]
+    )
+    if not latest:
+        return "No assessment found. Take the assessment first."
+
+    questions = list(db.questions.find({}, {"_id": 0}))
+    feats = compute_features(latest["answers"], questions)
+    predictions = predict_careers(feats, top_n=5)
+
+    return jsonify({
+        "your_profile": feats,
+        "top_careers": predictions
+    })
 if __name__ == "__main__":
     app.run(debug=True)
 
