@@ -75,6 +75,28 @@ def dashboard():
 def logout():
     session.clear()
     return redirect(url_for("home"))
+@app.route("/assessment", methods=["GET", "POST"])
+def assessment():
+    if "user_id" not in session:
+        flash("Please log in first.")
+        return redirect(url_for("login"))
+
+    if request.method == "POST":
+        answers = {}
+        for key in request.form:
+            answers[key] = request.form.get(key)
+
+        db.assessments.insert_one({
+            "user_id": session["user_id"],
+            "answers": answers
+        })
+
+        flash("Assessment submitted successfully!")
+        return redirect(url_for("dashboard"))
+
+    questions = list(db.questions.find({}, {"_id": 0}))
+    return render_template("assessment.html", questions=questions)
 
 if __name__ == "__main__":
     app.run(debug=True)
+

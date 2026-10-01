@@ -1,0 +1,164 @@
+[
+  {
+    "name": "Engineering & Technology",
+    "stream_after_10th": "Science (PCM) — Physics, Chemistry, Maths",
+    "entrance_exams": ["JEE Main", "JEE Advanced", "State CET", "BITSAT"],
+    "branches": [
+      {"name": "Computer Science", "focus": "software, coding, AI, data"},
+      {"name": "Electrical", "focus": "power systems, electronics, automation"},
+      {"name": "Mechanical", "focus": "machines, automotive, robotics"},
+      {"name": "Civil", "focus": "construction, infrastructure, structures"}
+    ],
+    "degree_route": {"path": "B.Tech / BE", "duration": "4 years"},
+    "diploma_route": {"path": "Polytechnic Diploma", "duration": "3 years after 10th"},
+    "iti_route": {"path": "ITI Electrician/Fitter", "duration": "1-2 years after 10th"},
+    "skills": ["logical thinking", "basic maths", "problem solving"],
+    "demand": "High",
+    "salary_range_entry": "2.5L-6L per year"
+  },
+  {
+    "name": "Healthcare & Medicine",
+    "stream_after_10th": "Science (PCB) — Physics, Chemistry, Biology",
+    "entrance_exams": ["NEET"],
+    "branches": [
+      {"name": "MBBS (Doctor)", "focus": "general medicine, surgery"},
+      {"name": "BDS (Dentist)", "focus": "dental care"},
+      {"name": "BSc Nursing", "focus": "patient care, hospital work"},
+      {"name": "Pharmacy", "focus": "medicines, drug research"}
+    ],
+    "degree_route": {"path": "MBBS / BDS / BSc Nursing", "duration": "4-5.5 years"},
+    "diploma_route": {"path": "Diploma in Pharmacy / Lab Technician", "duration": "2 years"},
+    "iti_route": {"path": "ANM/GNM Nursing (faster entry)", "duration": "2 years after 12th"},
+    "skills": ["biology interest", "patience", "care for others"],
+    "demand": "High",
+    "salary_range_entry": "3L-8L per year"
+  },
+  {
+    "name": "Business & Finance",
+    "stream_after_10th": "Commerce — Accounts, Economics, Business Studies",
+    "entrance_exams": ["CA Foundation", "CUET (for BBA/B.Com)"],
+    "branches": [],
+    "degree_route": {"path": "B.Com / BBA / CA", "duration": "3-5 years"},
+    "diploma_route": {"path": "Diploma in Accounting/Tally", "duration": "6 months-1 year"},
+    "iti_route": {"path": "Bank PO/Clerk exams after graduation", "duration": "Exam-based"},
+    "skills": ["numbers", "logical thinking", "communication"],
+    "demand": "High",
+    "salary_range_entry": "2.5L-6L per year"
+  },
+  {
+    "name": "Law",
+    "stream_after_10th": "Any stream (Arts preferred), strong English",
+    "entrance_exams": ["CLAT", "AILET"],
+    "branches": [],
+    "degree_route": {"path": "LLB (5-year integrated after 12th)", "duration": "5 years"},
+    "diploma_route": {"path": "Paralegal Certificate Course", "duration": "6 months-1 year"},
+    "iti_route": {"path": "—", "duration": "—"},
+    "skills": ["argumentation", "reading", "reasoning"],
+    "demand": "Medium",
+    "salary_range_entry": "3L-7L per year"
+  },
+  {
+    "name": "Teaching & Education",
+    "stream_after_10th": "Any stream",
+    "entrance_exams": ["CTET/State TET (after degree)"],
+    "branches": [],
+    "degree_route": {"path": "BA/B.Sc + B.Ed", "duration": "3+2 years"},
+    "diploma_route": {"path": "D.El.Ed (Diploma in Elementary Education)", "duration": "2 years after 12th"},
+    "iti_route": {"path": "—", "duration": "—"},
+    "skills": ["communication", "patience", "subject knowledge"],
+    "demand": "Medium",
+    "salary_range_entry": "2L-5L per year"
+  },
+  {
+    "name": "Design & Creative Arts",
+    "stream_after_10th": "Any stream",
+    "entrance_exams": ["NID DAT", "UCEED", "NIFT Entrance"],
+    "branches": [
+      {"name": "Graphic Design", "focus": "visual branding, digital art"},
+      {"name": "Fashion Design", "focus": "clothing, textiles"},
+      {"name": "Product Design", "focus": "industrial/product design"}
+    ],
+    "degree_route": {"path": "B.Des / Fine Arts", "duration": "4 years"},
+    "diploma_route": {"path": "Diploma in Graphic/Fashion Design", "duration": "1-2 years"},
+    "iti_route": {"path": "Freelance design after short course", "duration": "3-6 months"},
+    "skills": ["creativity", "visual sense", "drawing"],
+    "demand": "Medium",
+    "salary_range_entry": "2L-5L per year"
+  },
+  {
+    "name": "Government & Defense Services",
+    "stream_after_10th": "Any stream (Science/PCM helps for NDA)",
+    "entrance_exams": ["NDA", "SSC", "Railways", "Police", "Agniveer"],
+    "branches": [],
+    "degree_route": {"path": "Any degree + UPSC/SSC exams", "duration": "3-4 years + exam prep"},
+    "diploma_route": {"path": "—", "duration": "—"},
+    "iti_route": {"path": "NDA (after 12th, direct) / Agniveer", "duration": "Exam + training"},
+    "skills": ["discipline", "physical fitness", "general awareness"],
+    "demand": "High",
+    "salary_range_entry": "2.5L-6L per year + benefits"
+  },
+  {
+    "name": "Skilled Trades",
+    "stream_after_10th": "Any stream",
+    "entrance_exams": ["ITI Direct Admission"],
+    "branches": [
+      {"name": "Electrician", "focus": "wiring, electrical repair"},
+      {"name": "Plumber", "focus": "pipe fitting, water systems"},
+      {"name": "Welder/Fitter", "focus": "metal work, machinery"}
+    ],
+    "degree_route": {"path": "—", "duration": "—"},
+    "diploma_route": {"path": "—", "duration": "—"},
+    "iti_route": {"path": "ITI Trade Certificate", "duration": "1-2 years after 10th"},
+    "skills": ["hands-on work", "practical thinking"],
+    "demand": "High",
+    "salary_range_entry": "1.5L-4L per year"
+  },
+  {
+    "name": "IT & Computer Applications",
+    "stream_after_10th": "Science or Commerce with Maths",
+    "entrance_exams": ["CUET (for BCA)"],
+    "branches": [],
+    "degree_route": {"path": "BCA / B.Sc Computer Science", "duration": "3 years"},
+    "diploma_route": {"path": "Diploma in Computer Applications", "duration": "1 year"},
+    "iti_route": {"path": "Coding bootcamp + freelancing", "duration": "3-6 months"},
+    "skills": ["logical thinking", "typing", "problem solving"],
+    "demand": "High",
+    "salary_range_entry": "2.5L-6L per year"
+  },
+  {
+    "name": "Hospitality & Culinary",
+    "stream_after_10th": "Any stream",
+    "entrance_exams": ["NCHM JEE"],
+    "branches": [],
+    "degree_route": {"path": "BHM (Hotel Management)", "duration": "3-4 years"},
+    "diploma_route": {"path": "Diploma in Culinary Arts", "duration": "1-2 years"},
+    "iti_route": {"path": "Direct job as chef helper + short course", "duration": "3-6 months"},
+    "skills": ["cooking interest", "service mindset", "hygiene"],
+    "demand": "Medium",
+    "salary_range_entry": "2L-5L per year"
+  },
+  {
+    "name": "Agriculture & Allied Sciences",
+    "stream_after_10th": "Science (PCB/PCM)",
+    "entrance_exams": ["ICAR AIEEA"],
+    "branches": [],
+    "degree_route": {"path": "B.Sc Agriculture", "duration": "4 years"},
+    "diploma_route": {"path": "Diploma in Agriculture", "duration": "2 years"},
+    "iti_route": {"path": "Farming/agri-business with govt schemes", "duration": "Varies"},
+    "skills": ["interest in nature", "practical thinking"],
+    "demand": "Medium",
+    "salary_range_entry": "2L-4.5L per year"
+  },
+  {
+    "name": "Psychology & Social Work",
+    "stream_after_10th": "Any stream",
+    "entrance_exams": ["CUET (for BA Psychology)"],
+    "branches": [],
+    "degree_route": {"path": "BA Psychology / MSW", "duration": "3 years"},
+    "diploma_route": {"path": "—", "duration": "—"},
+    "iti_route": {"path": "NGO/community work with short courses", "duration": "3-6 months"},
+    "skills": ["empathy", "listening", "communication"],
+    "demand": "Medium",
+    "salary_range_entry": "2L-5L per year"
+  }
+]

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assessment - PathPilot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Career Assessment</h1>
+    <p>Answer all questions honestly. This helps us recommend the right career path for you.</p>
+
+    <form method="POST" action="/assessment">
+        {% for q in questions %}
+            <div style="margin-bottom: 20px; text-align:left; max-width:500px; margin-left:auto; margin-right:auto;">
+                <p><b>{{ loop.index }}. {{ q.text }}</b></p>
+                {% for option in q.options %}
+                    <label>
+                        <input type="radio" name="{{ q.id }}" value="{{ option }}" required>
+                        {{ option }}
+                    </label><br>
+                {% endfor %}
+            </div>
+        {% endfor %}
+        <button type="submit">Submit Assessment</button>
+    </form>
+</body>
+</html>

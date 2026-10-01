@@ -1,0 +1,93 @@
+[
+  {
+    "id": "q0",
+    "type": "profile",
+    "text": "Which class are you currently in?",
+    "options": ["10th", "12th"]
+  },
+  {
+    "id": "q1",
+    "type": "profile",
+    "text": "What matters most to you right now?",
+    "options": [
+      "Getting a degree and going deep into a subject",
+      "Learning a practical skill and earning sooner",
+      "Preparing for a government/competitive exam",
+      "Not sure yet"
+    ]
+  },
+  {
+    "id": "q2",
+    "type": "interest",
+    "feature": "realistic",
+    "text": "I enjoy building, fixing, or working with tools and machines.",
+    "options": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"]
+  },
+  {
+    "id": "q3",
+    "type": "interest",
+    "feature": "investigative",
+    "text": "I enjoy solving puzzles, doing experiments, or asking how things work.",
+    "options": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"]
+  },
+  {
+    "id": "q4",
+    "type": "interest",
+    "feature": "artistic",
+    "text": "I enjoy drawing, designing, writing, or creating things.",
+    "options": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"]
+  },
+  {
+    "id": "q5",
+    "type": "interest",
+    "feature": "social",
+    "text": "I enjoy helping, teaching, or taking care of other people.",
+    "options": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"]
+  },
+  {
+    "id": "q6",
+    "type": "interest",
+    "feature": "enterprising",
+    "text": "I enjoy leading a team, persuading people, or starting new projects.",
+    "options": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"]
+  },
+  {
+    "id": "q7",
+    "type": "interest",
+    "feature": "conventional",
+    "text": "I enjoy organizing data, following clear steps, or working with numbers/records.",
+    "options": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"]
+  },
+  {
+    "id": "q8",
+    "type": "aptitude",
+    "feature": "logical",
+    "text": "Find the next number: 2, 4, 8, 16, ?",
+    "options": ["18", "24", "32", "20"],
+    "correct": "32"
+  },
+  {
+    "id": "q9",
+    "type": "aptitude",
+    "feature": "numerical",
+    "text": "If a shirt costs ₹500 after a 20% discount, what was its original price?",
+    "options": ["₹600", "₹625", "₹550", "₹700"],
+    "correct": "₹625"
+  },
+  {
+    "id": "q10",
+    "type": "aptitude",
+    "feature": "verbal",
+    "text": "Choose the word that means the opposite of 'ABUNDANT'.",
+    "options": ["Plentiful", "Scarce", "Wealthy", "Huge"],
+    "correct": "Scarce"
+  },
+  {
+    "id": "q11",
+    "type": "aptitude",
+    "feature": "spatial",
+    "text": "Which shape completes the pattern? (Imagine a rotating square sequence)",
+    "options": ["Circle", "Triangle", "Square", "Pentagon"],
+    "correct": "Square"
+  }
+]
