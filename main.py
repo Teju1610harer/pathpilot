@@ -148,6 +148,31 @@ def results():
         student_class=feats["class"],
         results=detailed_results
     )
+
+@app.route("/history")
+def history():
+    if "user_id" not in session:
+        flash("Please log in first.")
+        return redirect(url_for("login"))
+
+    past_assessments = list(db.assessments.find(
+        {"user_id": session["user_id"]}
+    ).sort("_id", -1))
+
+    questions = list(db.questions.find({}, {"_id": 0}))
+
+    history_list = []
+    for a in past_assessments:
+        feats = compute_features(a["answers"], questions)
+        predictions = predict_careers(feats, top_n=3)
+        history_list.append({
+            "id": str(a["_id"]),
+            "class": feats["class"],
+            "top_careers": predictions
+        })
+
+    return render_template("history.html", history=history_list)
+
 if __name__ == "__main__":
     app.run(debug=True)
 

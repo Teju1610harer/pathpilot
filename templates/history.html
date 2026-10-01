@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>History - PathPilot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Your Past Assessments</h1>
+
+    {% if not history %}
+        <p>You haven't taken any assessments yet.</p>
+    {% endif %}
+
+    {% for h in history %}
+    <div style="text-align:left; max-width:500px; margin:15px auto; border:1px solid #ccc; padding:12px; border-radius:8px;">
+        <p><b>Attempt {{ loop.revindex }}</b> — Class: {{ h.class }}</p>
+        <p><b>Top matches:</b></p>
+        <ul>
+            {% for career, score in h.top_careers %}
+            <li>{{ career }} — {{ score }}%</li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endfor %}
+
+    <p><a href="/assessment">Retake Assessment</a> | <a href="/dashboard">Back to Dashboard</a></p>
+</body>
+</html>
