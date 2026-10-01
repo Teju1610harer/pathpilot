@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Results - PathPilot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Your Recommended Career Paths</h1>
+
+    {% for r in results %}
+    <div style="text-align:left; max-width:600px; margin:20px auto; border:1px solid #ccc; padding:15px; border-radius:8px;">
+        <h2>{{ loop.index }}. {{ r.name }} — {{ r.confidence }}% match</h2>
+
+        {% if r.info %}
+            <p><b>Stream after 10th:</b> {{ r.info.stream_after_10th }}</p>
+            <p><b>Entrance exams:</b> {{ r.info.entrance_exams | join(', ') }}</p>
+
+            {% if r.info.branches %}
+            <p><b>Branches to choose from later:</b></p>
+            <ul>
+                {% for b in r.info.branches %}
+                <li>{{ b.name }} — {{ b.focus }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+
+            <p><b>Degree route:</b> {{ r.info.degree_route.path }} ({{ r.info.degree_route.duration }})</p>
+            {% if r.info.diploma_route.path != "—" %}
+            <p><b>Diploma route:</b> {{ r.info.diploma_route.path }} ({{ r.info.diploma_route.duration }})</p>
+            {% endif %}
+            {% if r.info.iti_route.path != "—" %}
+            <p><b>Faster/ITI route:</b> {{ r.info.iti_route.path }} ({{ r.info.iti_route.duration }})</p>
+            {% endif %}
+
+            <p><b>Skills needed:</b> {{ r.info.skills | join(', ') }}</p>
+            <p><b>Demand:</b> {{ r.info.demand }} | <b>Entry salary:</b> {{ r.info.salary_range_entry }}</p>
+        {% endif %}
+    </div>
+    {% endfor %}
+
+    <p><a href="/dashboard">Back to Dashboard</a></p>
+</body>
+</html>

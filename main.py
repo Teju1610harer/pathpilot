@@ -94,8 +94,7 @@ def assessment():
         })
 
         flash("Assessment submitted successfully!")
-        return redirect(url_for("dashboard"))
-
+        return redirect(url_for("results"))
     questions = list(db.questions.find({}, {"_id": 0}))
     return render_template("assessment.html", questions=questions)
 
@@ -127,16 +126,28 @@ def results():
         sort=[("_id", -1)]
     )
     if not latest:
-        return "No assessment found. Take the assessment first."
+        flash("Please take the assessment first.")
+        return redirect(url_for("assessment"))
 
     questions = list(db.questions.find({}, {"_id": 0}))
     feats = compute_features(latest["answers"], questions)
     predictions = predict_careers(feats, top_n=5)
 
-    return jsonify({
-        "your_profile": feats,
-        "top_careers": predictions
-    })
+    # Attach full career details to each prediction
+    detailed_results = []
+    for career_name, confidence in predictions:
+        career_info = db.careers.find_one({"name": career_name}, {"_id": 0})
+        detailed_results.append({
+            "name": career_name,
+            "confidence": confidence,
+            "info": career_info
+        })
+
+    return render_template(
+        "results.html",
+        student_class=feats["class"],
+        results=detailed_results
+    )
 if __name__ == "__main__":
     app.run(debug=True)
 
