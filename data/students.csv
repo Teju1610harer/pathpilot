@@ -1,0 +1,481 @@
+realistic,investigative,artistic,social,enterprising,conventional,logical,numerical,verbal,spatial,class,career
+2,5,1,4,2,3,0,1,0,1,12th,Healthcare & Medicine
+5,3,2,2,3,3,0,1,0,0,12th,Agriculture & Allied Sciences
+2,2,4,5,4,3,0,0,0,1,10th,Hospitality & Culinary
+5,2,2,5,3,4,0,0,0,1,10th,Government & Defense Services
+4,2,4,5,5,1,0,0,1,0,10th,Hospitality & Culinary
+3,3,4,5,2,2,1,1,0,0,10th,Teaching & Education
+5,3,1,5,3,4,1,0,1,1,12th,Government & Defense Services
+3,3,4,5,5,1,0,1,0,0,10th,Hospitality & Culinary
+2,4,1,5,3,3,1,1,1,0,10th,Healthcare & Medicine
+1,3,3,5,2,2,1,0,1,0,10th,Psychology & Social Work
+5,5,2,1,2,4,1,1,0,0,10th,Engineering & Technology
+5,2,3,3,3,3,0,0,0,1,10th,Skilled Trades
+5,4,1,4,2,3,1,1,0,0,10th,Agriculture & Allied Sciences
+5,1,1,1,1,3,1,0,1,1,10th,Skilled Trades
+5,5,2,3,2,2,1,1,0,0,12th,Engineering & Technology
+1,4,1,3,5,3,0,1,1,0,12th,Business & Finance
+3,4,2,4,3,4,0,1,1,1,12th,Healthcare & Medicine
+3,2,3,4,3,4,0,0,0,0,12th,Agriculture & Allied Sciences
+5,5,2,3,2,2,0,1,0,1,12th,Engineering & Technology
+1,3,5,2,4,3,0,0,1,0,10th,Design & Creative Arts
+1,2,2,5,4,3,0,0,1,0,12th,Teaching & Education
+1,3,2,4,3,3,0,1,1,0,12th,Psychology & Social Work
+1,4,3,5,2,4,1,1,1,0,10th,Healthcare & Medicine
+4,1,1,5,3,4,0,0,0,1,12th,Government & Defense Services
+2,4,2,2,4,3,1,1,1,0,12th,Business & Finance
+2,4,3,5,3,2,0,0,1,0,10th,Psychology & Social Work
+3,4,3,1,4,2,1,1,0,1,12th,IT & Computer Applications
+3,5,2,2,4,3,1,1,0,1,10th,IT & Computer Applications
+5,1,2,3,3,4,1,0,0,1,10th,Skilled Trades
+5,4,1,3,3,2,1,1,0,1,10th,Engineering & Technology
+2,2,4,3,5,3,1,1,1,0,12th,Hospitality & Culinary
+5,5,1,3,4,3,1,1,0,0,10th,Engineering & Technology
+2,1,5,3,3,3,0,1,0,0,10th,Hospitality & Culinary
+5,2,2,4,4,2,0,1,0,0,12th,Agriculture & Allied Sciences
+3,2,5,3,5,3,0,0,0,0,10th,Hospitality & Culinary
+2,4,1,4,4,5,1,1,1,0,10th,Business & Finance
+5,1,2,1,3,4,0,0,0,0,10th,Skilled Trades
+3,3,4,5,4,2,0,0,1,1,10th,Teaching & Education
+1,5,3,4,3,2,0,1,1,0,12th,Psychology & Social Work
+4,4,3,1,3,4,1,1,0,1,12th,Engineering & Technology
+2,5,2,1,4,2,1,1,0,1,10th,IT & Computer Applications
+1,2,3,5,3,3,0,0,0,0,12th,Teaching & Education
+2,4,2,3,5,5,1,1,1,0,10th,Business & Finance
+3,1,4,4,3,3,0,0,0,1,10th,Design & Creative Arts
+5,5,2,1,2,3,0,1,0,0,12th,Engineering & Technology
+2,4,1,3,2,3,1,1,0,1,10th,IT & Computer Applications
+2,3,3,5,1,3,1,0,1,0,12th,Psychology & Social Work
+2,5,1,4,1,2,1,0,1,0,12th,Healthcare & Medicine
+1,2,2,3,5,4,1,1,0,0,12th,Law
+3,4,2,4,3,4,1,1,1,0,12th,Healthcare & Medicine
+2,2,4,5,4,1,0,0,0,0,10th,Hospitality & Culinary
+3,4,2,2,3,3,1,1,0,1,12th,IT & Computer Applications
+5,4,2,3,2,3,0,0,0,0,10th,Agriculture & Allied Sciences
+5,4,2,3,2,2,0,1,0,0,10th,Agriculture & Allied Sciences
+4,1,3,1,2,2,0,0,0,1,10th,Skilled Trades
+5,1,1,4,3,4,1,0,0,1,12th,Government & Defense Services
+3,3,1,3,5,4,1,1,1,0,12th,Business & Finance
+3,3,2,2,5,5,1,1,1,0,12th,Business & Finance
+3,5,4,5,1,1,1,0,1,0,12th,Psychology & Social Work
+3,4,3,2,4,4,1,0,1,1,10th,Business & Finance
+1,5,2,5,2,2,0,0,0,0,10th,Psychology & Social Work
+4,2,1,5,5,3,0,0,0,1,10th,Government & Defense Services
+2,4,3,4,3,2,1,1,0,1,12th,Healthcare & Medicine
+1,2,1,4,3,2,1,0,1,1,12th,Law
+1,3,5,2,2,3,0,1,1,1,10th,Design & Creative Arts
+4,2,1,2,3,3,0,1,0,1,10th,Skilled Trades
+3,5,1,1,3,2,1,1,0,1,10th,IT & Computer Applications
+2,5,3,5,2,4,1,1,1,0,12th,Healthcare & Medicine
+3,4,3,5,1,2,1,1,1,1,10th,Healthcare & Medicine
+1,1,5,3,4,1,0,0,0,0,12th,Design & Creative Arts
+5,1,3,1,3,3,1,0,0,1,10th,Skilled Trades
+3,5,3,5,2,2,1,1,1,0,12th,Healthcare & Medicine
+2,1,4,3,3,1,0,0,1,1,10th,Design & Creative Arts
+1,2,1,3,3,3,1,1,1,0,10th,Law
+1,2,2,4,3,3,0,0,1,0,12th,Law
+3,2,4,4,2,3,0,0,1,0,12th,Teaching & Education
+3,2,2,3,5,5,0,0,1,1,10th,Government & Defense Services
+3,5,4,5,3,1,0,0,1,0,12th,Psychology & Social Work
+2,5,2,2,3,4,1,1,0,1,10th,IT & Computer Applications
+2,5,2,5,3,4,0,1,0,0,10th,Healthcare & Medicine
+4,3,2,3,4,2,0,1,1,0,12th,Agriculture & Allied Sciences
+3,5,2,3,2,3,1,1,0,1,10th,Engineering & Technology
+2,2,3,5,3,3,0,1,1,0,12th,Law
+2,5,2,4,3,1,0,0,1,0,12th,Psychology & Social Work
+3,5,2,1,2,2,1,1,0,1,10th,Engineering & Technology
+5,2,2,2,3,4,0,0,0,1,10th,Skilled Trades
+2,4,2,2,2,3,0,1,0,1,10th,IT & Computer Applications
+1,5,1,4,2,3,1,1,1,0,12th,Healthcare & Medicine
+2,4,2,2,2,4,1,1,1,1,12th,IT & Computer Applications
+2,3,5,3,4,3,0,0,1,1,10th,Design & Creative Arts
+3,4,3,3,2,3,0,0,0,1,10th,Agriculture & Allied Sciences
+1,1,5,3,2,3,0,0,1,1,10th,Design & Creative Arts
+1,3,5,3,2,1,0,0,1,0,12th,Design & Creative Arts
+5,2,2,3,2,4,1,1,0,1,10th,Agriculture & Allied Sciences
+5,5,1,1,4,2,1,0,1,1,12th,Engineering & Technology
+4,4,2,3,3,2,0,0,1,0,10th,Agriculture & Allied Sciences
+1,2,2,5,4,2,0,0,1,0,12th,Law
+1,3,5,4,4,1,0,0,1,1,10th,Design & Creative Arts
+2,3,4,4,1,1,0,0,1,0,12th,Psychology & Social Work
+3,5,3,4,3,3,1,1,1,0,10th,Healthcare & Medicine
+2,3,5,4,5,3,0,0,1,0,12th,Hospitality & Culinary
+5,4,1,3,3,3,0,1,0,0,10th,Agriculture & Allied Sciences
+1,3,1,3,4,3,0,0,1,0,12th,Law
+2,5,3,5,3,1,0,0,0,1,12th,Psychology & Social Work
+2,3,5,4,2,1,0,0,0,1,12th,Design & Creative Arts
+2,2,3,5,4,2,0,0,1,0,10th,Teaching & Education
+2,5,4,5,2,1,1,0,0,0,10th,Psychology & Social Work
+3,5,3,1,2,2,0,1,0,1,10th,Engineering & Technology
+5,2,2,4,4,4,0,1,0,0,10th,Agriculture & Allied Sciences
+3,5,1,4,1,2,0,1,1,0,12th,Healthcare & Medicine
+2,4,3,4,3,2,1,0,1,0,10th,Law
+3,3,3,4,4,4,0,1,0,0,10th,Agriculture & Allied Sciences
+1,3,3,3,3,2,1,0,0,0,12th,Law
+5,4,1,4,2,3,0,0,0,0,10th,Agriculture & Allied Sciences
+2,3,3,5,2,2,0,0,0,1,10th,Psychology & Social Work
+2,5,1,5,1,4,1,1,1,0,10th,Healthcare & Medicine
+3,2,2,5,4,2,0,0,1,0,10th,Teaching & Education
+4,1,3,3,2,3,0,0,1,1,10th,Skilled Trades
+5,4,3,4,3,4,1,1,0,0,12th,Agriculture & Allied Sciences
+3,4,2,1,2,4,1,0,0,0,12th,Engineering & Technology
+3,5,3,1,4,2,0,1,1,0,10th,Engineering & Technology
+2,5,3,5,2,4,0,1,0,0,12th,Healthcare & Medicine
+2,3,4,3,4,1,0,0,1,0,12th,Hospitality & Culinary
+3,2,2,4,4,5,1,1,1,1,10th,Business & Finance
+5,4,3,2,2,4,1,1,0,1,10th,Engineering & Technology
+3,4,2,3,4,3,1,1,1,0,10th,Business & Finance
+2,2,2,5,4,3,0,0,0,0,10th,Law
+4,4,1,3,3,4,1,1,0,0,10th,IT & Computer Applications
+3,3,3,5,1,1,0,0,1,0,10th,Psychology & Social Work
+1,5,2,5,2,2,0,0,1,0,10th,Psychology & Social Work
+3,2,2,4,5,4,1,1,1,0,10th,Business & Finance
+2,5,1,1,3,2,1,1,1,0,12th,IT & Computer Applications
+3,4,3,5,3,3,0,0,1,0,10th,Teaching & Education
+3,5,1,2,3,3,1,1,0,1,12th,Engineering & Technology
+1,2,5,2,4,2,0,1,1,0,12th,Design & Creative Arts
+4,2,1,3,3,3,1,0,0,1,10th,Government & Defense Services
+3,2,3,4,3,4,0,1,0,0,10th,Agriculture & Allied Sciences
+3,4,1,2,3,3,1,1,0,1,12th,Engineering & Technology
+1,2,3,3,5,3,1,1,1,0,10th,Business & Finance
+3,4,3,4,2,4,1,1,0,0,10th,Healthcare & Medicine
+5,5,2,3,4,3,1,1,1,1,12th,Engineering & Technology
+3,5,3,5,2,3,0,0,1,0,10th,Psychology & Social Work
+2,2,5,3,3,3,1,0,1,0,12th,Hospitality & Culinary
+3,4,2,1,3,3,1,1,0,1,12th,Engineering & Technology
+5,3,2,2,4,3,0,1,0,0,10th,Agriculture & Allied Sciences
+1,5,1,5,3,4,1,1,1,1,10th,Healthcare & Medicine
+3,4,3,4,5,5,1,0,1,1,12th,Business & Finance
+4,3,3,1,1,2,0,1,0,1,10th,Skilled Trades
+5,3,1,5,5,3,0,1,0,1,10th,Government & Defense Services
+3,5,2,1,3,4,1,1,0,1,10th,Engineering & Technology
+5,1,1,1,1,3,0,0,0,1,10th,Skilled Trades
+1,3,3,5,3,2,0,1,1,0,12th,Teaching & Education
+3,5,1,3,4,2,1,1,0,1,12th,Engineering & Technology
+5,5,1,1,2,3,1,0,0,1,12th,Engineering & Technology
+5,3,3,4,4,2,0,1,0,0,10th,Agriculture & Allied Sciences
+3,4,2,4,4,5,0,1,1,0,12th,Business & Finance
+4,4,3,1,3,2,1,1,0,1,12th,Engineering & Technology
+1,3,1,4,3,2,1,0,1,1,12th,Law
+2,4,4,5,3,3,1,1,1,0,10th,Psychology & Social Work
+1,3,2,3,5,3,1,1,0,1,10th,Business & Finance
+3,2,1,3,4,5,0,1,0,1,12th,Business & Finance
+5,2,1,3,5,3,0,0,0,0,10th,Government & Defense Services
+4,2,3,4,2,2,0,0,1,0,12th,Agriculture & Allied Sciences
+2,4,2,3,4,2,1,0,1,0,10th,Law
+4,5,2,2,2,3,1,1,0,1,10th,IT & Computer Applications
+3,3,4,4,5,1,1,0,0,0,10th,Hospitality & Culinary
+4,3,1,3,2,2,0,0,1,1,10th,Skilled Trades
+4,1,2,3,5,5,1,0,1,1,10th,Government & Defense Services
+2,3,2,5,2,3,0,1,1,0,12th,Teaching & Education
+4,2,1,4,4,4,0,1,1,0,12th,Agriculture & Allied Sciences
+1,4,3,5,3,3,1,0,0,0,10th,Law
+4,5,1,1,3,2,1,1,0,1,12th,IT & Computer Applications
+3,4,3,5,3,4,1,1,0,0,10th,Healthcare & Medicine
+3,3,3,5,4,4,0,1,1,0,12th,Teaching & Education
+3,4,3,5,4,4,0,0,0,0,12th,Teaching & Education
+2,3,4,5,4,3,1,1,1,0,12th,Hospitality & Culinary
+2,4,4,5,4,4,1,1,1,0,12th,Teaching & Education
+2,2,4,4,4,1,1,0,1,0,10th,Design & Creative Arts
+1,2,1,2,5,4,0,1,1,0,12th,Business & Finance
+1,1,5,2,4,2,0,0,1,1,10th,Design & Creative Arts
+1,2,3,5,3,3,1,0,1,1,10th,Law
+4,3,1,5,5,3,0,0,1,1,10th,Government & Defense Services
+1,4,3,4,3,2,1,1,1,0,12th,Law
+4,3,5,4,3,2,0,1,1,0,12th,Hospitality & Culinary
+3,2,3,4,4,1,1,0,0,0,10th,Hospitality & Culinary
+2,4,2,4,4,4,0,1,0,0,10th,Business & Finance
+3,2,5,4,3,2,0,1,0,0,10th,Hospitality & Culinary
+2,4,3,5,4,3,0,0,0,0,10th,Teaching & Education
+2,5,2,3,3,4,1,1,0,1,12th,IT & Computer Applications
+3,1,5,3,3,3,0,0,1,1,12th,Design & Creative Arts
+1,4,1,5,2,4,1,1,1,0,12th,Healthcare & Medicine
+4,3,2,2,3,4,0,0,0,1,12th,Skilled Trades
+3,2,2,4,2,4,0,1,0,0,12th,Agriculture & Allied Sciences
+1,3,5,3,2,2,0,1,1,1,10th,Design & Creative Arts
+1,2,2,4,5,5,1,1,1,0,12th,Business & Finance
+4,1,1,4,5,5,0,0,0,1,12th,Government & Defense Services
+3,3,4,4,4,3,0,0,1,1,10th,Hospitality & Culinary
+1,4,4,5,1,3,0,1,1,1,10th,Psychology & Social Work
+3,5,1,2,2,3,1,1,0,1,10th,IT & Computer Applications
+4,3,2,5,4,4,1,0,0,1,12th,Government & Defense Services
+4,5,2,1,2,2,1,1,0,1,10th,IT & Computer Applications
+2,3,4,5,4,2,0,0,0,0,12th,Hospitality & Culinary
+3,3,3,3,4,2,0,0,1,1,10th,Hospitality & Culinary
+3,3,1,2,4,3,0,1,0,0,12th,Agriculture & Allied Sciences
+3,4,1,2,2,2,1,1,0,1,10th,Engineering & Technology
+3,3,3,4,3,4,0,0,1,0,12th,Teaching & Education
+1,3,1,4,4,4,1,0,0,0,12th,Law
+3,5,3,1,2,2,1,1,0,1,12th,IT & Computer Applications
+3,2,5,2,3,2,1,0,1,1,10th,Design & Creative Arts
+5,2,2,3,4,3,0,0,0,1,10th,Government & Defense Services
+4,2,1,3,4,3,0,0,0,1,12th,Government & Defense Services
+3,5,2,4,3,4,1,1,1,1,12th,Healthcare & Medicine
+3,3,2,2,5,4,1,1,1,0,12th,Business & Finance
+1,1,4,4,2,1,1,0,1,1,12th,Design & Creative Arts
+4,3,5,3,4,1,0,0,1,0,10th,Hospitality & Culinary
+5,5,3,1,4,4,0,1,1,1,10th,Engineering & Technology
+4,5,3,3,3,2,1,0,0,1,10th,IT & Computer Applications
+3,4,1,3,2,3,1,0,1,1,12th,IT & Computer Applications
+2,4,1,5,5,4,1,1,1,0,10th,Law
+2,3,1,4,4,4,1,0,1,0,12th,Law
+1,3,4,4,2,4,1,1,1,0,12th,Teaching & Education
+3,3,4,4,3,1,0,0,1,0,10th,Hospitality & Culinary
+1,3,3,5,3,2,0,0,1,0,12th,Teaching & Education
+4,1,1,5,3,3,0,0,0,0,12th,Government & Defense Services
+5,5,3,1,3,3,1,1,0,1,10th,Engineering & Technology
+3,1,5,3,5,2,0,0,1,1,10th,Hospitality & Culinary
+3,2,3,4,4,4,1,0,1,1,12th,Business & Finance
+3,3,3,2,4,4,1,1,1,0,12th,Business & Finance
+3,4,1,3,2,3,1,1,0,1,12th,Engineering & Technology
+4,3,3,5,5,2,0,0,0,0,12th,Hospitality & Culinary
+2,3,2,5,3,4,0,0,1,0,10th,Teaching & Education
+2,5,2,5,2,2,0,1,1,0,12th,Psychology & Social Work
+4,1,3,1,3,2,1,0,0,1,12th,Skilled Trades
+3,4,3,5,3,3,0,0,1,0,12th,Teaching & Education
+5,1,1,1,2,2,1,0,0,0,12th,Skilled Trades
+4,1,1,1,2,3,0,0,1,1,10th,Skilled Trades
+3,5,3,5,2,2,0,0,1,0,12th,Psychology & Social Work
+1,4,2,4,4,4,1,1,1,1,10th,Teaching & Education
+2,4,2,2,5,5,1,1,1,0,10th,Business & Finance
+1,4,2,5,4,2,1,0,1,0,10th,Law
+1,3,3,5,3,4,0,1,1,0,10th,Teaching & Education
+3,2,1,4,5,5,1,0,0,0,12th,Government & Defense Services
+2,4,2,5,4,2,1,1,1,0,12th,Law
+3,5,3,2,2,2,1,1,1,1,12th,Engineering & Technology
+2,2,1,4,5,4,1,1,1,0,12th,Business & Finance
+5,4,1,4,2,2,0,1,0,0,10th,Agriculture & Allied Sciences
+2,5,2,4,1,4,0,0,1,0,10th,Healthcare & Medicine
+3,4,4,5,3,2,0,0,1,0,12th,Psychology & Social Work
+2,2,3,5,5,3,1,0,1,0,12th,Law
+4,5,3,1,4,2,1,1,0,1,12th,IT & Computer Applications
+2,2,3,3,4,3,1,0,1,0,10th,Business & Finance
+2,4,3,3,4,3,1,0,1,0,10th,Law
+1,2,5,3,4,1,0,0,1,1,10th,Design & Creative Arts
+4,2,5,4,3,3,0,1,0,1,12th,Hospitality & Culinary
+3,2,1,2,2,3,0,1,0,0,12th,Agriculture & Allied Sciences
+3,2,2,5,4,4,1,1,0,0,12th,Government & Defense Services
+3,3,3,4,4,3,0,1,1,0,12th,Business & Finance
+3,2,4,5,4,3,1,0,0,0,12th,Hospitality & Culinary
+1,2,3,4,3,2,1,1,0,0,10th,Law
+2,2,3,5,4,2,0,0,1,0,10th,Teaching & Education
+1,3,4,3,4,2,0,1,1,1,10th,Design & Creative Arts
+5,2,1,3,5,5,0,1,0,1,10th,Government & Defense Services
+4,2,3,2,2,4,0,0,0,1,10th,Skilled Trades
+4,2,3,1,2,2,0,1,0,0,12th,Skilled Trades
+4,5,2,1,2,2,1,1,0,0,10th,IT & Computer Applications
+5,3,1,3,3,2,0,0,0,1,10th,Skilled Trades
+3,3,3,4,4,2,0,1,0,1,12th,Hospitality & Culinary
+5,3,3,4,2,3,0,1,1,0,12th,Agriculture & Allied Sciences
+1,4,2,3,4,4,1,0,1,0,10th,Law
+4,3,3,3,3,4,0,0,1,1,12th,Skilled Trades
+2,1,5,4,2,2,0,1,1,1,10th,Design & Creative Arts
+5,4,3,3,3,2,0,0,1,0,10th,Agriculture & Allied Sciences
+2,3,5,4,3,3,0,0,1,0,10th,Design & Creative Arts
+1,2,3,3,5,2,1,0,1,0,12th,Law
+4,3,1,4,4,4,0,1,0,0,12th,Agriculture & Allied Sciences
+3,2,1,4,5,3,0,1,1,1,10th,Government & Defense Services
+4,1,1,3,2,2,1,0,0,0,12th,Skilled Trades
+3,5,3,5,2,2,0,0,1,1,10th,Psychology & Social Work
+5,3,3,2,3,3,0,0,0,1,10th,Skilled Trades
+4,5,1,1,4,3,1,1,0,1,10th,IT & Computer Applications
+2,5,3,4,3,2,0,0,1,0,12th,Psychology & Social Work
+2,5,1,1,3,4,1,0,0,1,10th,IT & Computer Applications
+5,4,2,4,4,2,0,1,0,0,10th,Agriculture & Allied Sciences
+3,4,2,2,5,4,0,0,1,0,10th,Business & Finance
+3,4,2,5,4,2,1,0,1,0,10th,Teaching & Education
+5,3,2,1,3,4,0,1,1,0,10th,Skilled Trades
+2,4,1,1,2,2,1,1,0,1,12th,IT & Computer Applications
+4,1,3,2,3,3,0,0,0,1,10th,Skilled Trades
+3,4,4,4,2,1,0,0,1,0,10th,Psychology & Social Work
+3,5,1,1,3,4,1,1,0,1,10th,IT & Computer Applications
+2,3,5,4,3,2,0,0,1,1,12th,Design & Creative Arts
+3,3,3,4,4,2,0,1,1,0,10th,Hospitality & Culinary
+3,3,3,4,3,3,0,0,1,0,10th,Teaching & Education
+1,2,1,5,5,2,1,1,1,0,10th,Law
+3,3,2,4,3,4,0,0,1,0,10th,Teaching & Education
+4,3,2,5,5,3,1,0,0,0,10th,Government & Defense Services
+2,3,5,4,4,2,0,1,1,1,10th,Design & Creative Arts
+1,2,3,2,4,3,1,1,1,1,12th,Business & Finance
+2,4,2,3,5,2,1,0,1,0,10th,Law
+2,5,1,3,2,3,1,1,0,0,10th,IT & Computer Applications
+3,3,5,4,3,1,0,0,1,1,12th,Design & Creative Arts
+2,3,5,3,3,3,0,0,1,0,10th,Hospitality & Culinary
+4,5,2,3,4,2,1,0,0,1,12th,IT & Computer Applications
+1,4,3,4,3,2,1,0,0,0,12th,Law
+5,3,3,1,1,3,0,0,0,1,10th,Skilled Trades
+3,3,5,5,3,2,1,0,1,0,12th,Hospitality & Culinary
+3,4,3,3,5,4,1,1,0,0,10th,Business & Finance
+4,4,1,3,2,4,1,1,0,1,10th,IT & Computer Applications
+4,2,1,1,3,2,0,0,1,1,10th,Skilled Trades
+1,3,3,3,4,2,1,1,1,0,12th,Law
+3,3,5,5,4,3,0,0,0,0,10th,Hospitality & Culinary
+2,5,1,5,3,4,1,1,1,0,12th,Healthcare & Medicine
+1,4,2,5,2,3,0,0,1,0,12th,Psychology & Social Work
+2,5,3,5,2,3,0,1,0,0,12th,Healthcare & Medicine
+4,1,3,2,1,2,0,1,0,1,12th,Skilled Trades
+1,3,3,2,5,4,1,1,0,0,10th,Business & Finance
+3,1,2,4,5,5,0,1,0,0,10th,Government & Defense Services
+1,2,4,5,2,2,0,0,1,0,12th,Teaching & Education
+2,3,1,5,5,2,1,0,1,0,10th,Law
+5,5,2,3,2,4,1,1,0,1,10th,Engineering & Technology
+3,5,1,3,2,3,1,1,0,1,10th,Engineering & Technology
+3,5,3,3,2,2,1,1,1,1,10th,Engineering & Technology
+2,3,3,4,4,2,0,0,1,0,10th,Teaching & Education
+1,3,1,4,5,2,1,1,1,0,12th,Law
+3,2,5,4,4,3,0,1,0,0,10th,Hospitality & Culinary
+3,3,2,5,2,2,0,1,1,0,10th,Psychology & Social Work
+3,1,5,4,4,3,0,0,0,1,10th,Design & Creative Arts
+3,2,1,4,5,4,1,1,1,1,10th,Business & Finance
+2,5,1,5,2,2,1,1,1,1,10th,Healthcare & Medicine
+3,2,1,4,5,4,1,1,1,1,12th,Government & Defense Services
+5,3,1,4,3,2,0,1,0,0,10th,Agriculture & Allied Sciences
+4,3,3,5,4,3,1,0,1,0,12th,Hospitality & Culinary
+3,3,2,5,2,4,0,0,1,0,10th,Teaching & Education
+1,5,3,5,3,4,1,0,1,0,12th,Healthcare & Medicine
+2,1,5,3,3,3,1,0,0,0,10th,Hospitality & Culinary
+2,1,5,3,4,2,0,1,1,1,10th,Design & Creative Arts
+5,2,2,2,2,4,0,0,0,1,10th,Skilled Trades
+4,2,1,5,5,5,0,0,0,1,12th,Government & Defense Services
+4,1,5,5,3,3,0,1,1,0,12th,Hospitality & Culinary
+3,5,2,3,4,3,1,1,1,1,12th,Engineering & Technology
+4,2,2,3,4,5,0,0,0,1,12th,Government & Defense Services
+5,2,1,4,3,4,0,1,0,1,12th,Agriculture & Allied Sciences
+2,2,2,3,4,3,1,1,1,0,10th,Business & Finance
+2,1,5,3,3,3,0,0,1,1,10th,Design & Creative Arts
+3,4,2,4,2,2,0,1,1,0,12th,Agriculture & Allied Sciences
+3,3,4,2,3,3,0,0,1,1,12th,Design & Creative Arts
+1,4,2,5,4,3,0,1,1,0,10th,Teaching & Education
+3,2,1,3,5,4,1,1,1,0,12th,Business & Finance
+4,3,3,3,1,4,0,0,0,1,10th,Skilled Trades
+2,2,4,4,2,3,1,0,1,1,10th,Design & Creative Arts
+1,5,2,5,3,2,1,1,0,0,12th,Healthcare & Medicine
+2,5,3,4,3,4,1,1,0,0,10th,Healthcare & Medicine
+3,5,2,2,2,2,1,0,0,0,12th,Engineering & Technology
+5,2,2,4,5,3,0,0,0,1,12th,Government & Defense Services
+4,4,1,2,4,2,1,1,0,0,10th,IT & Computer Applications
+1,1,5,3,4,3,0,1,1,1,10th,Design & Creative Arts
+4,3,2,3,3,4,1,1,1,0,10th,Agriculture & Allied Sciences
+3,5,3,2,2,3,1,1,0,1,10th,Engineering & Technology
+4,1,4,4,4,1,0,0,0,0,10th,Hospitality & Culinary
+3,2,5,3,3,3,0,0,1,1,12th,Design & Creative Arts
+4,2,1,4,5,5,0,1,0,1,12th,Government & Defense Services
+5,1,2,1,3,4,1,0,1,1,12th,Skilled Trades
+3,3,4,4,2,2,0,0,0,0,10th,Teaching & Education
+4,3,3,3,2,2,0,1,0,0,10th,Agriculture & Allied Sciences
+1,4,3,4,5,4,1,0,1,0,12th,Law
+1,5,3,5,1,3,1,0,1,0,12th,Healthcare & Medicine
+1,3,1,3,4,4,1,1,1,0,10th,Law
+1,3,2,3,4,3,1,0,1,1,10th,Law
+3,3,4,4,2,1,0,0,0,0,12th,Psychology & Social Work
+3,5,2,2,4,3,0,0,0,1,12th,Engineering & Technology
+4,5,1,2,2,2,0,1,1,1,12th,IT & Computer Applications
+2,3,2,4,1,3,0,0,1,1,10th,Psychology & Social Work
+2,5,3,5,2,3,1,1,0,0,10th,Healthcare & Medicine
+4,2,1,3,2,4,0,0,1,1,12th,Skilled Trades
+3,4,1,3,2,2,1,1,0,1,10th,Engineering & Technology
+2,2,3,4,4,4,0,1,1,0,12th,Law
+2,5,2,5,3,4,0,1,0,1,12th,Healthcare & Medicine
+1,3,2,4,3,3,1,0,0,0,10th,Psychology & Social Work
+4,2,2,4,3,2,0,1,0,0,10th,Agriculture & Allied Sciences
+1,2,4,3,3,1,0,0,1,1,12th,Design & Creative Arts
+5,2,1,3,5,5,0,0,0,1,10th,Government & Defense Services
+3,4,3,4,3,4,0,0,0,1,12th,Agriculture & Allied Sciences
+3,4,3,4,1,3,0,0,0,0,10th,Psychology & Social Work
+4,5,1,1,2,3,1,0,0,1,12th,IT & Computer Applications
+1,3,5,3,2,3,0,0,1,1,10th,Design & Creative Arts
+1,3,5,3,3,3,0,0,0,1,12th,Design & Creative Arts
+3,2,5,4,3,1,0,1,1,1,10th,Design & Creative Arts
+5,1,1,2,1,2,0,0,0,1,12th,Skilled Trades
+5,2,2,2,2,2,0,1,1,1,10th,Agriculture & Allied Sciences
+3,1,1,4,4,4,0,1,0,1,12th,Government & Defense Services
+2,3,4,5,2,2,0,1,1,0,12th,Psychology & Social Work
+5,2,2,3,4,2,0,1,0,1,12th,Agriculture & Allied Sciences
+4,1,2,2,2,2,1,0,1,1,12th,Skilled Trades
+4,4,1,3,3,3,1,0,0,1,12th,IT & Computer Applications
+4,3,1,5,4,4,1,0,0,1,10th,Government & Defense Services
+3,3,4,4,2,1,1,0,1,1,10th,Design & Creative Arts
+3,4,3,4,2,3,0,0,0,0,12th,Teaching & Education
+1,5,3,5,3,4,1,1,1,0,10th,Healthcare & Medicine
+2,2,5,3,3,1,0,0,1,1,12th,Design & Creative Arts
+1,2,2,5,3,3,0,1,1,1,12th,Teaching & Education
+4,3,2,1,1,2,0,0,0,1,10th,Skilled Trades
+5,3,2,5,4,4,0,0,1,1,10th,Government & Defense Services
+1,3,2,3,5,4,1,1,0,0,10th,Business & Finance
+2,5,3,4,3,3,1,1,1,0,12th,Healthcare & Medicine
+2,2,4,3,4,2,1,0,1,0,10th,Hospitality & Culinary
+5,5,1,1,2,2,1,1,0,1,12th,Engineering & Technology
+3,3,3,4,2,2,1,1,0,1,10th,Agriculture & Allied Sciences
+2,4,3,5,3,1,0,0,1,0,12th,Psychology & Social Work
+3,5,3,5,2,3,1,1,1,0,12th,Healthcare & Medicine
+2,2,3,2,5,5,1,1,0,0,10th,Business & Finance
+2,2,5,4,4,2,0,1,1,1,10th,Design & Creative Arts
+5,5,1,2,2,2,1,1,0,1,12th,Engineering & Technology
+5,1,2,3,5,3,0,0,0,1,12th,Government & Defense Services
+3,2,5,4,4,1,0,0,1,0,10th,Hospitality & Culinary
+3,3,1,3,4,4,1,1,1,0,10th,Business & Finance
+3,4,2,3,4,4,1,0,0,1,10th,IT & Computer Applications
+1,4,4,4,1,1,0,0,0,0,12th,Psychology & Social Work
+2,5,1,5,1,2,1,1,1,1,12th,Healthcare & Medicine
+2,4,1,1,3,2,1,1,0,1,12th,IT & Computer Applications
+3,2,2,3,3,5,0,0,0,1,12th,Government & Defense Services
+5,2,2,3,5,3,0,0,0,1,12th,Government & Defense Services
+3,5,1,3,4,2,1,1,1,1,12th,Engineering & Technology
+4,2,2,3,3,4,0,0,0,0,10th,Skilled Trades
+3,2,2,2,5,5,1,0,0,0,12th,Business & Finance
+4,2,5,5,5,3,0,0,1,0,12th,Hospitality & Culinary
+5,3,1,5,5,3,0,0,0,1,10th,Government & Defense Services
+3,3,3,4,2,3,0,0,1,0,12th,Teaching & Education
+2,5,2,1,3,4,1,1,1,1,10th,IT & Computer Applications
+1,3,3,5,1,3,0,0,1,0,10th,Psychology & Social Work
+2,4,2,4,3,3,0,0,1,0,12th,Law
+5,2,1,2,1,3,0,0,0,1,12th,Skilled Trades
+3,5,3,5,2,2,0,0,1,0,12th,Psychology & Social Work
+5,2,2,1,1,4,0,0,0,1,12th,Skilled Trades
+5,1,2,4,3,4,1,0,0,1,12th,Government & Defense Services
+3,5,3,5,3,2,1,1,1,0,12th,Healthcare & Medicine
+3,2,5,3,5,3,0,0,1,0,12th,Hospitality & Culinary
+1,5,2,5,2,2,1,1,1,0,10th,Healthcare & Medicine
+2,4,2,4,2,2,0,0,1,0,12th,Teaching & Education
+1,2,3,5,3,4,0,0,0,0,10th,Teaching & Education
+1,4,4,5,2,3,0,0,1,0,12th,Psychology & Social Work
+3,2,2,5,2,3,0,0,1,0,10th,Teaching & Education
+1,2,2,4,4,3,0,0,0,1,12th,Teaching & Education
+1,4,1,4,3,2,1,1,0,0,12th,Healthcare & Medicine
+2,4,1,5,3,3,0,1,1,0,12th,Healthcare & Medicine
+4,5,3,3,4,4,0,1,0,1,10th,IT & Computer Applications
+3,1,4,4,2,1,0,0,1,1,10th,Design & Creative Arts
+5,3,1,4,3,3,0,0,0,1,12th,Government & Defense Services
+3,5,1,2,3,2,1,0,0,1,10th,Engineering & Technology
+5,2,2,2,1,2,1,0,0,1,10th,Skilled Trades
+2,3,2,5,3,3,0,1,1,0,10th,Teaching & Education
+5,3,2,4,3,5,1,0,0,0,12th,Government & Defense Services
+3,5,4,5,1,3,0,0,1,1,12th,Psychology & Social Work
+1,3,4,5,3,4,0,0,1,0,12th,Teaching & Education
+2,2,5,4,5,3,0,0,1,0,10th,Hospitality & Culinary
+5,2,1,1,2,4,0,0,0,1,12th,Skilled Trades
+5,4,1,2,4,3,0,1,0,0,10th,Agriculture & Allied Sciences
+3,5,2,3,4,3,1,1,0,1,10th,IT & Computer Applications
+4,1,1,5,4,5,0,0,0,1,10th,Government & Defense Services
+5,1,3,2,3,4,0,0,0,1,10th,Skilled Trades
+2,3,3,3,5,3,0,1,1,0,10th,Law
+1,4,1,4,4,2,1,0,1,0,10th,Law
+1,4,1,4,4,2,1,0,1,0,12th,Law
+3,5,2,2,3,2,1,1,0,1,10th,IT & Computer Applications
+3,4,1,2,5,4,1,1,1,0,12th,Business & Finance
+2,1,4,5,5,2,1,0,1,0,12th,Hospitality & Culinary
+3,2,2,4,5,5,1,1,1,0,12th,Business & Finance
+3,5,4,5,2,2,0,0,1,0,10th,Psychology & Social Work
+2,5,3,1,3,3,1,1,1,0,12th,IT & Computer Applications
+1,2,4,4,3,2,0,0,1,1,10th,Design & Creative Arts
+2,5,3,5,3,2,0,0,1,0,10th,Psychology & Social Work
+1,3,1,4,4,3,1,0,1,0,12th,Law
+1,5,2,5,2,3,0,1,0,1,10th,Psychology & Social Work
+5,5,3,1,2,3,1,1,1,0,12th,Engineering & Technology
+2,4,3,4,3,4,0,0,1,0,10th,Teaching & Education
+2,4,2,4,2,2,1,0,0,1,12th,Healthcare & Medicine
+3,4,3,3,5,4,0,1,1,1,12th,Business & Finance
+5,1,1,4,3,3,0,0,1,1,10th,Government & Defense Services
+2,5,1,2,4,3,1,1,0,1,12th,IT & Computer Applications
+5,3,2,3,3,2,1,1,1,0,12th,Agriculture & Allied Sciences
+1,4,2,2,5,3,1,1,1,0,10th,Business & Finance
