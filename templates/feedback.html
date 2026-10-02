@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback - PathPilot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Share Your Feedback</h1>
+    <p>How helpful were the career suggestions?</p>
+
+    <form method="POST" action="/feedback">
+        <div>
+            <label><input type="radio" name="rating" value="1" required> 1 - Not helpful</label><br>
+            <label><input type="radio" name="rating" value="2"> 2</label><br>
+            <label><input type="radio" name="rating" value="3"> 3 - Okay</label><br>
+            <label><input type="radio" name="rating" value="4"> 4</label><br>
+            <label><input type="radio" name="rating" value="5"> 5 - Very helpful</label><br>
+        </div>
+        <br>
+        <textarea name="comment" rows="4" cols="40" placeholder="Any comments (optional)"></textarea><br><br>
+        <button type="submit">Submit Feedback</button>
+    </form>
+    <p><a href="/dashboard">Back to Dashboard</a></p>
+</body>
+</html>

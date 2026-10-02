@@ -212,6 +212,40 @@ def admin_delete_career(career_id):
     flash("Career deleted.")
     return redirect(url_for("admin_careers"))
 
+
+@app.route("/feedback", methods=["GET", "POST"])
+def feedback():
+    if "user_id" not in session:
+        flash("Please log in first.")
+        return redirect(url_for("login"))
+
+    if request.method == "POST":
+        rating = request.form.get("rating")
+        comment = request.form.get("comment")
+
+        db.feedback.insert_one({
+            "user_id": session["user_id"],
+            "name": session["name"],
+            "rating": int(rating),
+            "comment": comment
+        })
+
+        flash("Thank you for your feedback!")
+        return redirect(url_for("dashboard"))
+
+    return render_template("feedback.html")
+@app.route("/admin/feedback")
+def admin_feedback():
+    if not admin_required():
+        flash("Admin access only.")
+        return redirect(url_for("login"))
+
+    all_feedback = list(db.feedback.find().sort("_id", -1))
+    ratings = [f["rating"] for f in all_feedback]
+    avg_rating = round(sum(ratings) / len(ratings), 2) if ratings else 0
+
+    return render_template("admin_feedback.html", feedback=all_feedback, avg_rating=avg_rating, count=len(ratings))
+
 if __name__ == "__main__":
     app.run(debug=True)
 

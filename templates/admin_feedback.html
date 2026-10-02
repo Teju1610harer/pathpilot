@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback - Admin</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Student Feedback</h1>
+    <p><b>Average Rating:</b> {{ avg_rating }} / 5 ({{ count }} responses)</p>
+
+    {% for f in feedback %}
+    <div style="text-align:left; max-width:500px; margin:10px auto; border:1px solid #ccc; padding:10px;">
+        <b>{{ f.name }}</b> — Rating: {{ f.rating }}/5
+        {% if f.comment %}<p>"{{ f.comment }}"</p>{% endif %}
+    </div>
+    {% endfor %}
+
+    <p><a href="/admin">Back to Admin Dashboard</a></p>
+</body>
+</html>
