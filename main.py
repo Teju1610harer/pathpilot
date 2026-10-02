@@ -71,7 +71,7 @@ def dashboard():
     if "user_id" not in session:
         flash("Please log in first.")
         return redirect(url_for("login"))
-    return render_template("dashboard.html", name=session["name"])
+    return render_template("dashboard.html", name=session["name"], role=session.get("role"))
 
 @app.route("/logout")
 def logout():
@@ -172,6 +172,45 @@ def history():
         })
 
     return render_template("history.html", history=history_list)
+def admin_required():
+    return session.get("role") == "admin"
+
+@app.route("/admin")
+def admin_dashboard():
+    if not admin_required():
+        flash("Admin access only.")
+        return redirect(url_for("login"))
+
+    total_users = db.users.count_documents({})
+    total_assessments = db.assessments.count_documents({})
+    total_careers = db.careers.count_documents({})
+
+    return render_template(
+        "admin_dashboard.html",
+        total_users=total_users,
+        total_assessments=total_assessments,
+        total_careers=total_careers
+    )
+
+@app.route("/admin/careers")
+def admin_careers():
+    if not admin_required():
+        flash("Admin access only.")
+        return redirect(url_for("login"))
+
+    careers = list(db.careers.find())
+    return render_template("admin_careers.html", careers=careers)
+
+@app.route("/admin/careers/delete/<career_id>")
+def admin_delete_career(career_id):
+    if not admin_required():
+        flash("Admin access only.")
+        return redirect(url_for("login"))
+
+    from bson.objectid import ObjectId
+    db.careers.delete_one({"_id": ObjectId(career_id)})
+    flash("Career deleted.")
+    return redirect(url_for("admin_careers"))
 
 if __name__ == "__main__":
     app.run(debug=True)

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Dashboard - PathPilot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Admin Dashboard</h1>
+    <p>Total Users: {{ total_users }}</p>
+    <p>Total Assessments Taken: {{ total_assessments }}</p>
+    <p>Total Careers: {{ total_careers }}</p>
+    <p><a href="/admin/careers">Manage Careers</a></p>
+    <p><a href="/dashboard">Back to Student Dashboard</a></p>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Manage Careers - PathPilot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Manage Careers</h1>
+
+    {% for c in careers %}
+    <div style="text-align:left; max-width:500px; margin:10px auto; border:1px solid #ccc; padding:10px;">
+        <b>{{ c.name }}</b> — Demand: {{ c.demand }}
+        <br>
+        <a href="/admin/careers/delete/{{ c._id }}" onclick="return confirm('Delete this career?');">Delete</a>
+    </div>
+    {% endfor %}
+
+    <p><a href="/admin">Back to Admin Dashboard</a></p>
+</body>
+</html>

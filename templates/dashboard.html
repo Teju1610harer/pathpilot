@@ -11,6 +11,9 @@
     <p><a href="/assessment">Take Career Assessment</a></p>
     <p><a href="/results">View My Results</a></p>
     <p><a href="/history">View History</a></p>
-    <a href="/logout">Logout</a>
+    {% if role == "admin" %}
+    <p><a href="/admin">Admin Panel</a></p>
+    {% endif %}
+    <p><a href="/logout">Logout</a></p>
 </body>
 </html>
